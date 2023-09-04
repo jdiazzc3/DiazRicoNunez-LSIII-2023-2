@@ -120,10 +120,67 @@
             background-color: transparent; /* Fondo transparente */
         }
       
+        footer {
+          background-color: #3498db;
+          padding: 20px;
+          text-align: center;
+          font-family: 'Roboto', sans-serif;
+         }
+
+    hr {
+        margin: 10px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+        width: 100%;
+      }
+
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+
+    .footer-left,.footer-right {
+        flex: 1;
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    .footer-left h3,
+    .footer-right h3 {
+      font-size: 18px;
+      color: black;
+    }
+
+    .footer-left p,
+     .footer-right p {
+        font-size: 14px;
+        color: whitesmoke;
+    }
+
+    .social-media a {
+        margin-right: 10px;
+    }
+
+    .social-media img {
+      width: 20px;
+      height: 20px;
+    }
+
+    a {
+      color: whitesmoke;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #666;
+    }
       
     </style>
 </head>
-
 <body>
     <header>
         <h1>FastFix</h1>
@@ -197,6 +254,40 @@
     
     
         </main>
+  <footer>
+    <hr>
+    <div class="footer-content">
+        <div class="footer-left">
+            <h3>Sobre Nosotros</h3>
+            <p>¡Conectamos el poder de la reparación y el mantenimiento en la palma de tu mano!</p>
+            <h3>Nuestras redes sociales</h3>
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank"><img src="https://cdn.icon-icons.com/icons2/1995/PNG/512/facebook_internet_media_network_social_icon_123257.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="https://cdn.icon-icons.com/icons2/1995/PNG/512/chat_communication_media_social_twitter_icon_123256.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="https://cdn.icon-icons.com/icons2/1995/PNG/512/instagram_internet_media_network_social_icon_123258.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="https://cdn.icon-icons.com/icons2/1995/PNG/512/chat_communication_linked_in_media_social_icon_123255.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="contact-info">
+                <h3>Contacto</h3>
+                <p>Email: <a href="mailto:fastfixcontact@gmail.com">fastfixcontact@gmail.com</a></p>
+                <p>Teléfono: <a href="tel:########">300 450 6734</a></p>
+            </div>
+            <div class="visit-us">
+                <h3>Visítanos</h3>
+                <p>Estamos ubicados en Cra. 122 #6-65, Barrio Pance, Cali, Valle del Cauca
+                    <div class="social-media">
+                        <a href="https://www.google.com/maps/place/Universidad+de+San+Buenaventura+Cali/@3.344976,-76.5444787,15z/data=!4m6!3m5!1s0x8e30a1f4bf2a445b:0x527eac67838ce690!8m2!3d3.344976!4d-76.5444787!16s%2Fg%2F1pwgtgwpq?entry=ttu" target="_blank"><img src="https://cdn.icon-icons.com/icons2/1129/PNG/512/placeholderblackshapeforlocalizationonmaps_79861.png" alt="Maps"></a>
+                    </div>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="footer-info"> 2023 FastFix®. Fines estudiantiles.</p>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
@@ -212,5 +303,4 @@
 
 
 </body>
-
 </html>
